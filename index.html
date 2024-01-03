@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: black;
+        }
+        .img
+        {
+            height: 50vh;
+            width: 40%;
+            background-color: #1f1c1c;
+            position: relative;
+            top: 5vh;
+            left: 30%;
+            border-radius: 20px;
+            
+        }
+        img
+        {
+            height: 50vh;
+            width: 100%;
+            border-radius: 20px;
+            filter: grayscale(1);
+        }
+        img:hover
+        {
+            filter: grayscale(0);
+        }
+        button
+        {
+            background-color: rgb(216, 0, 141);
+            padding: 10px;
+            position: relative;
+            top: 10vh;
+            left: 42%;
+            border: none;
+            border-radius: 12px;
+            /* color: white; */
+        }
+        button:hover
+        {
+            box-shadow: 0px 0px 5px #fe21a2,
+                        0px 0px 5px #fe21a2,
+                        0px 0px 5px #fe21a2,
+                        0px 0px 5px #fe21a2,
+                        0px 0px 5px #fe21a2,
+                        0px 0px 5px #fe21a2;
+                        color: white;
+        }
+    </style>
+</head>
+<body>
+   <div class="img">
+     <img src="./bgmi-img.webp" alt="">
+     <button>CLick Me</button>
+     
+   </div>
+</body>
+</html>
